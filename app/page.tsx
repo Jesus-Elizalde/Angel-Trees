@@ -5,8 +5,15 @@ export default function Home() {
   return (
     <main>
       <NavBar>
-        <div className="flex flex-row-reverse">
+        <div className="flex h-screen">
           <MainHero />
+          <Image
+            src="/images/bush.jpg"
+            alt=" "
+            width={803}
+            height={1020}
+            className="absolute object-cover w-1/2 h-[1020px] -z-10 top-0 opacity-80"
+          />
         </div>
       </NavBar>
     </main>
