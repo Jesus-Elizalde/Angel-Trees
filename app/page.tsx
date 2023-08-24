@@ -12,7 +12,7 @@ export default function Home() {
             alt=" "
             width={803}
             height={1020}
-            className="absolute object-cover w-1/2 h-[1020px] -z-10 top-0 opacity-80"
+            className="absolute object-cover w-3/4 h-[36rem] lg:w-1/2 lg:h-[1020px] -z-10 top-0 opacity-80"
           />
         </div>
       </NavBar>
