@@ -1,4 +1,4 @@
-import { MainHero, NavBar, ServiceCarousel } from "@/components";
+import { MainHero, NavBar, ServiceCarousel, WorkCarousel } from "@/components";
 import Image from "next/image";
 
 export default function Home() {
@@ -20,6 +20,12 @@ export default function Home() {
             Services We Provide
           </h1>
           <ServiceCarousel />
+        </div>
+        <div>
+          <h1 className="text-3xl font-bold text-center text-neutral-content font uppercase my-4 ">
+            Our Work
+          </h1>
+          <WorkCarousel />
         </div>
       </NavBar>
     </main>
