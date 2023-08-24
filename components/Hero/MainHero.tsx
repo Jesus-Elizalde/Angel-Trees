@@ -10,7 +10,10 @@ const MainHero = () => {
             Angel Garcia Tree Services
           </h1>
           <p className="py-6 text-sm">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+            Rooted in Excellence. Your trusted Partner for Tree Services and
+            more. With over 20 years of experience, we bring unmatched expertise
+            to every project. From tree care to beyond, discover the difference
+            of our exceptional workmanship.
           </p>
         </div>
         <div className="divider lg:divider-horizontal"></div>
