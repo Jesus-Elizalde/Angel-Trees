@@ -17,7 +17,7 @@ const AboutUsHero = () => {
           enhancing the beauty and health of your trees and landsdapes. As
           stewards of the environment, we take pride in contributing to our
           community. Choose Angels Garcia Tree Services as your trusted tree
-          care partner, and let's nurture a greener future together.
+          care partner, and lets nurture a greener future together.
         </p>
         <div className="divider lg:divider-horizontal"></div>
         <div className="flex lg:flex-col ml-5">
