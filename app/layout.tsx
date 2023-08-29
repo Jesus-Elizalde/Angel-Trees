@@ -1,6 +1,8 @@
+import { NavBar } from "@/components";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,37 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <NavBar>
+          {children}
+          <footer className="footer p-10 text-neutral-content">
+            <div>
+              <p>Angel's Tree Service</p>
+            </div>
+            <div className="flex">
+              <Image
+                src="/svgs/phone-icon.svg"
+                alt="phone"
+                width={20}
+                height={20}
+              />
+              <p>+650 320 3234</p>
+            </div>
+            <div className="flex">
+              <Image
+                src="/svgs/location-icon.svg"
+                alt="phone"
+                width={20}
+                height={20}
+              />
+              <div>
+                <p>3209 Street St,</p>
+                <p>California, 94303</p>
+              </div>
+            </div>
+          </footer>
+        </NavBar>
+      </body>
     </html>
   );
 }
