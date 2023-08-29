@@ -66,7 +66,7 @@ export default function Home() {
                 ></textarea>
               </div>
               <div>
-                <p className="  lg:w-96 text-neutral-content p-4 lg:p-0">
+                <p className="lg:w-96 text-neutral-content px-4 lg:px-0">
                   Write to us and we will be sure to answer all your questions
                   and give you a comprehensive consultation.
                 </p>

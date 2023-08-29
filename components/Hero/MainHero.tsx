@@ -3,10 +3,10 @@ import React from "react";
 
 const MainHero = () => {
   return (
-    <div className="hero bg-primary w-[80%] h-72 lg:h-[714px] rounded-tl-3xl rounded-bl-3xl absolute right-0 mt-7">
+    <div className="hero bg-primary w-[80%] h-72 lg:h-[714px] rounded-tl-3xl rounded-bl-3xl absolute right-0 lg:px-4">
       <div className="hero-content flex-col lg:flex-row">
         <div className="text-center lg:text-left">
-          <h1 className="font-bold lg:text-9xl text-neutral-content text-3xl">
+          <h1 className="font-bold lg:text-8xl text-neutral-content text-3xl">
             Angel Garcia Tree Services
           </h1>
           <p className="py-6 text-sm">

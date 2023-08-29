@@ -8,7 +8,7 @@ const AboutUsHero = () => {
         About Us
       </h1>
       <div className="flex lg:items-start lg:justify-center lg:flex-row flex-col">
-        <p className="w-[20rem] lg:w-[35rem] lg:text-xl mt-10 ml-5">
+        <p className="w-[19rem] lg:w-[35rem] lg:text-xl mt-10 ml-5 mr-1">
           <span className="font-bold">At Angels Garcia Tree Services</span> -
           with a decade of dedicated experience, we are your partners in
           exceptional tree care. Our certified arborists and skilled
@@ -20,7 +20,7 @@ const AboutUsHero = () => {
           care partner, and lets nurture a greener future together.
         </p>
         <div className="divider lg:divider-horizontal"></div>
-        <div className="flex lg:flex-col ml-5">
+        <div className="flex lg:flex-col ml-5 mb-2">
           <Image
             src="/images/marked-tree.jpg"
             alt="A tree with an orange mark"
