@@ -24,7 +24,7 @@ export default function RootLayout({
             {children}
             <footer className="footer p-10 text-neutral-content">
               <div>
-                <p>Angel's Tree Service</p>
+                <p>Angel&apos;s Tree Service</p>
               </div>
               <div className="flex">
                 <Image
