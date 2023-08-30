@@ -1,4 +1,4 @@
-import { ContactUsSection, NavBar } from "@/components";
+import { ContactUsSection, GoogleMaps, NavBar } from "@/components";
 import Image from "next/image";
 import React from "react";
 
@@ -33,7 +33,11 @@ const page = () => {
           </div>
         </div>
         <div>
-          <div className="w-96 h-96 bg-primary rounded-md"></div>
+          <GoogleMaps
+            coords={{ lat: 37.33182, lng: 122.03118 }}
+            size={{ width: "24rem", height: "24rem" }}
+            zoom={true}
+          />
         </div>
       </div>
       <div>
