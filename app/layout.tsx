@@ -20,33 +20,35 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <NavBar>
-          {children}
-          <footer className="footer p-10 text-neutral-content">
-            <div>
-              <p>Angel's Tree Service</p>
-            </div>
-            <div className="flex">
-              <Image
-                src="/svgs/phone-icon.svg"
-                alt="phone"
-                width={20}
-                height={20}
-              />
-              <p>+650 320 3234</p>
-            </div>
-            <div className="flex">
-              <Image
-                src="/svgs/location-icon.svg"
-                alt="phone"
-                width={20}
-                height={20}
-              />
+          <div className="flex flex-col justify-between h-screen">
+            {children}
+            <footer className="footer p-10 text-neutral-content">
               <div>
-                <p>3209 Street St,</p>
-                <p>California, 94303</p>
+                <p>Angel's Tree Service</p>
               </div>
-            </div>
-          </footer>
+              <div className="flex">
+                <Image
+                  src="/svgs/phone-icon.svg"
+                  alt="phone"
+                  width={20}
+                  height={20}
+                />
+                <p>+650 320 3234</p>
+              </div>
+              <div className="flex">
+                <Image
+                  src="/svgs/location-icon.svg"
+                  alt="phone"
+                  width={20}
+                  height={20}
+                />
+                <div>
+                  <p>3209 Street St,</p>
+                  <p>California, 94303</p>
+                </div>
+              </div>
+            </footer>
+          </div>
         </NavBar>
       </body>
     </html>
